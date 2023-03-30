@@ -4,7 +4,7 @@ import AboutUs from './AboutUs'
 import Services from './Services'
 import Rewiews from './Rewiews'
 import Gallery from './Gallery'
-// import VideoGallery from './VideoGallery'
+
 import Resturant from './Resturant'
 import Map from './Map'
 import Rooms2 from './Rooms2'
@@ -29,7 +29,7 @@ const Home = ({ containerRef }) => {
       </div>
       <Gallery />
       <div className="bg-gray-100 ">
-        {/* <VideoGallery /> */}
+
       </div>
       <Map />
     </>
