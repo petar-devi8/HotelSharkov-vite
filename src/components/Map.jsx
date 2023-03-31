@@ -1,5 +1,5 @@
 import React, { Fragment, useRef, useState } from 'react'
-import { useLocation } from 'react-router-dom';
+
 import classNames from './utils/classNames';
 import { IoLocationOutline } from 'react-icons/io5';
 import { BsTelephone } from 'react-icons/bs';
@@ -75,27 +75,27 @@ const Map = () => {
     console.log("newValue:", newValue);
     setValue(newValue);
   }
-  const location = useLocation();
+
 
   const [adults, setAdults] = useState(adult[0])
   const [children, setChildren] = useState(adult[0])
 
   return (
-    <div id='map' className={classNames(location.pathname !== '/' && 'sm:mt-24', 'max-w-6xl mx-auto lg:px-0 sm:py-20 py-12 scroll-mt-24')}>
+    <div id='map' className='max-w-6xl mx-auto lg:px-0 sm:py-20 py-12 scroll-mt-24'>
       <h3 className='sm:text-5xl text-3xl sm:py-8 py-4 text-gray-600 text-center'>Контакти</h3>
       <h4 className="uppercase text-xl font-title text-center space-y-10">Свържете се с нас</h4>
 
       <div className=" flex flex-col sm:flex-row max-sm:px-4 gap-12 mt-10">
         <div className=' space-y-3  sm:w-1/2'>
           {/* <h3 className='text-gray-700 text-xl sm:text-2xl px-4 '>Как  да стигнете при нас  </h3> */}
-          <iframe className='w-full aspect-square border-2 rounded-md  ' width="100%" height="600" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bulgaria,%20ognqnovo,hotel%20Sharkov+(%D0%A1%D0%B5%D0%BC%D0%B5%D0%B5%D0%BD%20%D1%85%D0%BE%D1%82%D0%B5%D0%BB%20%D0%A8%D0%B0%D1%80%D0%BA%D0%BE%D0%B2)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
+          <iframe className='w-full aspect-square border-2 rounded-md  ' width="100%" height="510" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=bulgaria,%20ognqnovo,hotel%20Sharkov+(%D0%A1%D0%B5%D0%BC%D0%B5%D0%B5%D0%BD%20%D1%85%D0%BE%D1%82%D0%B5%D0%BB%20%D0%A8%D0%B0%D1%80%D0%BA%D0%BE%D0%B2)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
         </div>
 
         <div className=" sm:w-1/2">
           <form id='contact_form' ref={form} onSubmit={sendEmail} className='flex flex-col lg:gap-0  text-base gap-y-2 sm:gap-y-4 justify-between' action="">
             <input type="hidden" name="startDate" value={value.startDate} />
             <input type="hidden" name="endDate" value={value.endDate} />
-            <div className=' flex flex-col gap-2 w-full'>
+            <div className=' flex flex-col sm:gap-2 gap-1 w-full'>
               <label className=' block font-medium leading-6 text-gray-900 sm:text-lg text-sm' htmlFor="">Дати за настаняване и напускане</label>
               <Datepicker
                 inputClassName=" !py-2 !pl-3 !text-base border-gray-200 border focus:ring disabled:opacity-40 disabled:cursor-not-allowed focus:border-sky-500/20 focus:ring-sky-500/20 !text-black !font-normal"
@@ -118,7 +118,7 @@ const Map = () => {
           </div>
         </div> */}
 
-            <div className='flex justify-between gap-4 w-full sm:mt-4'>
+            <div className='flex justify-between gap-3 w-full sm:mt-4'>
               <div className="w-1/2 ">
                 <label className=' block font-medium leading-6 text-gray-900 sm:text-lg text-sm ' htmlFor="adults">Възрастни</label>
                 <Listbox value={adults}
@@ -226,12 +226,12 @@ const Map = () => {
               </div>
             </div>
 
-            <div className="grid sm:grid-cols-2 gap-5 mt-2 ">
+            <div className="grid sm:grid-cols-2 gap-2 ">
               <div className="">
-                <label htmlFor="first-name" className="block font-medium leading-6 text-gray-9 sm:text-lg text-sm">
+                <label htmlFor="first-name" className="block font-medium leading-6 text-gray-900 sm:text-lg text-sm">
                   Име
                 </label>
-                <div className="mt-2">
+                <div className="mt-1">
                   <input
                     required
                     type="text"
@@ -250,7 +250,7 @@ const Map = () => {
                 <label htmlFor="last-name" className="block font-medium leading-6 text-gray-9 sm:text-lg text-sm">
                   Фамилия
                 </label>
-                <div className="mt-2">
+                <div className="mt-1">
                   <input
                     required
                     type="text"
@@ -267,7 +267,7 @@ const Map = () => {
                 <label htmlFor="Mail" className="block font-medium leading-6 text-gray-900 sm:text-lg text-sm">
                   Електронна поща
                 </label>
-                <div className="mt-2">
+                <div className="mt-1">
                   <input
                     required
                     type="email"
@@ -286,7 +286,7 @@ const Map = () => {
                 <label htmlFor="phone" className="block font-medium leading-6 text-gray-900 sm:text-lg text-sm ">
                   Телефон
                 </label>
-                <div className="mt-2">
+                <div className="mt-1">
                   <input
                     required
                     type="tel"
@@ -309,11 +309,11 @@ const Map = () => {
               <label htmlFor="phone" className="block font-medium leading-6 text-gray-000 sm:text-lg text-sm">
                 Съобщение
               </label>
-              <div className="mt-2">
+              <div className="mt-1">
                 <textarea
                   id="message"
                   name="message"
-                  rows={4}
+                  rows={3}
                   className="block w-full rounded-md bg-white py-2  pl-3 pr-10 text-left border-gray-200 border  focus:ring disabled:opacity-40 disabled:cursor-not-allowed focus:border-sky-500/20 focus:ring-sky-500/20 "
                   placeholder=""
                   defaultValue={''}
@@ -327,7 +327,7 @@ const Map = () => {
             </div> */}
             <div className="w-full sm:mt-3 flex justify-end">
 
-              <div className="mt-2">
+              <div className="mt-1">
                 {loading ?
                   <div className="w-48 bg-blue-400 p-2 rounded-md hover:bg-blue-600  text-white " >
                     <svg class="animate-spin mx-auto h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">

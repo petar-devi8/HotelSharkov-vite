@@ -62,8 +62,8 @@ const Footer = () => {
               <p className='pl-2'> Понеделник — Петък 8:00 - 17:00</p>
 
             </div>
-            <div className='flex gap-2 border-t-2 space-y-2'>
-              <a target='_blank' href="https://www.facebook.com/HotelSharkov/?locale=bg_BG"> <AiOutlineFacebook className='w-5 h-5 mt-2 ' /></a>
+            <div className='flex gap-2 border-t-2 space-y-4 items-center'>
+              <a target='_blank' href="https://www.facebook.com/HotelSharkov/?locale=bg_BG"> <AiOutlineFacebook className='w-5 h-5 mt-4 ' /></a>
               <a href="#"><AiOutlineInstagram className='w-5 h-5' /> </a>
               <a href="#"><AiOutlineTwitter className='w-5 h-5' /></a>
 

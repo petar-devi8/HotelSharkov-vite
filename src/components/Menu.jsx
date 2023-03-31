@@ -4,11 +4,10 @@ import menu_2 from "./Images/menu_2.webp"
 import menu_3 from "./Images/menu_3.webp"
 import { Tab } from '@headlessui/react'
 import { IoTimeOutline } from "react-icons/io5"
-import classNames from "./utils/classNames"
-import { useLocation } from "react-router-dom"
+
 
 const Menu = () => {
-  const location = useLocation();
+
   return (
     // <div className="max-w-6xl mx-auto sm:py-28  ">
 
@@ -78,7 +77,7 @@ const Menu = () => {
 
     // </div>
 
-    <div id="menu" className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12')}>
+    <div id="menu" className='max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12'>
       {/* <div className="space-y-5">
         <h2 className='font-medium  tracking-wider  text-gray-400 uppercase text-center'>Шарков Хотел</h2>
         <h2 className="font-medium  text-4xl   text-center text-gray-600">Ресторант Шарков</h2>

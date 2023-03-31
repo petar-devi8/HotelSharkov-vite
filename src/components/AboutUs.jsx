@@ -1,18 +1,16 @@
-import { AiFillStar } from "react-icons/ai"
+
 import { MdWifiCalling2 } from "react-icons/md"
 import AboutUs1 from "./Images/AboutUs1.jpg"
 import AboutUs2 from "./Images/AboutUs2.jpg"
-import { useLocation } from "react-router-dom"
-import classNames from "./utils/classNames"
 import { RiStarSFill } from "react-icons/ri"
 
 
 
 const AboutUs = () => {
-  const location = useLocation();
-  console.log(location);
+
+
   return (
-    <div id="aboutus" className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 pb-12 scroll-mt-24')}>
+    <div id="aboutus" className='max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 pb-12 scroll-mt-24'>
       <div className="flex max-sm:flex-col justify-between gap-4 ">
 
         <div className="sm:w-1/2 space-y-5">

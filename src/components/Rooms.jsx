@@ -7,16 +7,16 @@ import { AiFillDropboxSquare } from 'react-icons/ai'
 import { BiDish } from 'react-icons/bi'
 import { GiTowel } from 'react-icons/gi'
 import { FaSwimmingPool } from 'react-icons/fa'
-import { useLocation } from 'react-router-dom'
+
 import classNames from './utils/classNames'
 
 
 
 const Rooms = () => {
-  const location = useLocation();
+
 
   return (
-    <div className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12')}>
+    <div className='max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12'>
 
       <div class="flex flex-col gap-8 md:w-7/12 ">
         <h3 class=" text-gray-400 font-light text-lg uppercase relative after:w-[80px] after:h-0.5 after:absolute after:bg-gray-600 after:top-1/2 after:ml-6 mt-16">

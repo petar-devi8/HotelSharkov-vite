@@ -1,6 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import classNames from "./utils/classNames";
 
 
@@ -17,7 +17,7 @@ const navigation = [
 const MainMenu = ({ isVisible }) => {
   return (
     <Disclosure as="nav" className={classNames(
-      !isVisible ? "bg-white/60 backdrop-blur-xl text-gray-700 " : "", " fixed top-0 z-10 inset-x-0 transition-all h-24 ")}>
+      !isVisible ? "bg-white/60 backdrop-blur-xl text-gray-700 " : "", " fixed top-0 z-30 inset-x-0 transition-all h-24 ")}>
       {({ open }) => (
         <>
 

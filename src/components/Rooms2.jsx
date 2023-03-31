@@ -9,14 +9,14 @@ import Apartament_2 from "./Images/Apartament_2.jpg"
 import Apartament_3 from "./Images/Apartament_3.jpg"
 import { Fade } from 'react-slideshow-image'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
-import { useLocation } from "react-router-dom"
+
 import classNames from "./utils/classNames"
 
 
 const Rooms2 = () => {
 
 
-  const location = useLocation();
+
 
   const rooms = [
     {
@@ -43,7 +43,7 @@ const Rooms2 = () => {
 
 
   return (
-    <div id='rooms2' className={classNames(location.pathname !== '/' && location.hash !== "" && 'mt-24', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12 scroll-mt-24')} >
+    <div id='rooms2' className='max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12 scroll-mt-24'>
 
       <div class="flex flex-col sm:gap-8 gap-5 md:w-7/12 ">
         <h3 class=" text-gray-400 font-light sm:text-lg uppercase relative after:w-[80px] after:h-0.5 after:absolute after:bg-gray-600 after:top-1/2 after:ml-6 ">
@@ -60,8 +60,8 @@ const Rooms2 = () => {
           autem culpa quaerat!</p>
       </div>
 
-      <div className='flex flex-col justify-between gap-8 sm:pt-10 pt-5'>
-        <div className='flex flex-col-reverse sm:flex-row gap-8 justify-between sm:py-5'>
+      <div className='flex flex-col justify-between sm:gap-10 gap-5 sm:pt-10 pt-5'>
+        <div className='flex flex-col-reverse sm:flex-row gap-5 sm:gap-8  justify-between sm:py-5'>
           <div class=" leading-6 space-y-2 ">
             <h2 class="sm:text-4xl text-2xl leading-normal pb-4">Единична стая </h2>
 
@@ -125,7 +125,7 @@ const Rooms2 = () => {
 
 
         </div>
-        <div className='flex flex-col-reverse sm:flex-row gap-8 justify-between sm:py-5'>
+        <div className='flex flex-col-reverse sm:flex-row gap-5 sm:gap-8 justify-between sm:py-5'>
           <div class=" leading-6 space-y-2 ">
             <h2 class="sm:text-4xl text-2xl leading-normal pb-4">Двойна стая  </h2>
 

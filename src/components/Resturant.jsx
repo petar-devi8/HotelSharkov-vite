@@ -2,15 +2,15 @@ import React from 'react'
 import { AiFillStar } from 'react-icons/ai'
 import { RiStarSFill } from 'react-icons/ri'
 import { IoTimeOutline } from 'react-icons/io5'
-import { useLocation } from 'react-router-dom';
+import { } from 'react-router-dom';
 import classNames from './utils/classNames';
 import { Tab } from '@headlessui/react'
 
 const Resturant = () => {
-  const location = useLocation();
+
 
   return (
-    <div id='resturant' className={classNames(location.pathname !== '/' && '', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12 scroll-mt-24')}>
+    <div id='resturant' className='max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12 scroll-mt-24'>
       <div className="space-y-5">
         <h2 className='font-medium  tracking-wider  text-gray-400 uppercase text-center'>Семеен Хотел Шарков</h2>
         <h2 className="font-medium  sm:text-5xl text-3xl  text-center text-gray-600">Ресторант Шарков</h2>
