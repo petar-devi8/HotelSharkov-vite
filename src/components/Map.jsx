@@ -81,7 +81,7 @@ const Map = () => {
   const [children, setChildren] = useState(adult[0])
 
   return (
-    <div id='map' className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto lg:px-0 sm:py-20 py-12 scroll-mt-24')}>
+    <div id='map' className={classNames(location.pathname !== '/' && 'sm:mt-24', 'max-w-6xl mx-auto lg:px-0 sm:py-20 py-12 scroll-mt-24')}>
       <h3 className='sm:text-5xl text-3xl sm:py-8 py-4 text-gray-600 text-center'>Контакти</h3>
       <h4 className="uppercase text-xl font-title text-center space-y-10">Свържете се с нас</h4>
 

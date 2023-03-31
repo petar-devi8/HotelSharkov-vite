@@ -25,7 +25,7 @@ const Services = () => {
             </div>
             <div className="flex flex-col gap-2">
               <h4 className="sm:text-2xl text-xl ">Луксозни стаи</h4>
-              <p className="text-sm sm:text-base leading-6">Нашите стаи са удобни и просторни.
+              <p className=" leading-6">Нашите стаи са удобни и просторни.
                 Климатизация, минибар, плазмен телевизор, тераса са част от удобствата ни.</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Services = () => {
 
             <div className="flex flex-col gap-2">
               <h4 className="sm:text-2xl text-xl ">Детски кът</h4>
-              <p className=" leading-6 text-sm sm:text-base">На разположение на най малките предлагаме детски кът, разполагащ с площ от близо 2 декара, където малчуганите могат да тичат на воля.</p>
+              <p className=" leading-6 ">На разположение на най малките предлагаме детски кът, разполагащ с площ от близо 2 декара, където малчуганите могат да тичат на воля.</p>
 
             </div>
 
@@ -57,7 +57,7 @@ const Services = () => {
             </div>
             <div className="flex flex-col gap-2">
               <h4 className="sm:text-2xl text-xl">Банкомат</h4>
-              <p className="text-sm sm:text-base leading-6">На територията на хотела се намира единственият банкомат в село Огняново. Банкоматът се обслужва от Пощенска банка.</p>
+              <p className="leading-6">На територията на хотела се намира единственият банкомат в село Огняново. Банкоматът се обслужва от Пощенска банка.</p>
 
             </div>
 
@@ -75,7 +75,7 @@ const Services = () => {
 
             <div className="flex flex-col gap-2">
               <h4 className="sm:text-2xl text-xl">СПА център - сауна и джакузи, масаж</h4>
-              <p className="text-sm sm:text-base leading-6">Джакузито повлиява особено благоприятно на опорно-двигателния апарат. Спомага за облекчаване на болки вследствие прекомерно натоварване. Отпуска тялото. </p>
+              <p className=" leading-6">Джакузито повлиява особено благоприятно на опорно-двигателния апарат. Спомага за облекчаване на болки вследствие прекомерно натоварване. Отпуска тялото. </p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Services = () => {
 
             <div className="flex flex-col gap-2">
               <h4 className="sm:text-2xl text-xl">Ресторант с лятна градина</h4>
-              <p className="text-sm sm:text-base leading-6">Заповядайте и опитайте страхотната ни кухня, приготвена по специални рецепти от нашите професионални готвачи.</p>
+              <p className="leading-6">Заповядайте и опитайте страхотната ни кухня, приготвена по специални рецепти от нашите професионални готвачи.</p>
             </div>
           </div>
 
@@ -103,7 +103,7 @@ const Services = () => {
             </div>
             <div className="flex flex-col gap-2">
               <h4 className="sm:text-2xl text-xl">Паркинг</h4>
-              <p className="text-sm sm:text-base leading-6">Хотелът разполага с безплатен паркинг за своите гости.</p>
+              <p className=" leading-6">Хотелът разполага с безплатен паркинг за своите гости.</p>
             </div>
           </div>
         </div>

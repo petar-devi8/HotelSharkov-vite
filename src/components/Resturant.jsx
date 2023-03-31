@@ -10,7 +10,7 @@ const Resturant = () => {
   const location = useLocation();
 
   return (
-    <div id='resturant' className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12 scroll-mt-24')}>
+    <div id='resturant' className={classNames(location.pathname !== '/' && '', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12 scroll-mt-24')}>
       <div className="space-y-5">
         <h2 className='font-medium  tracking-wider  text-gray-400 uppercase text-center'>Семеен Хотел Шарков</h2>
         <h2 className="font-medium  sm:text-5xl text-3xl  text-center text-gray-600">Ресторант Шарков</h2>
@@ -54,7 +54,7 @@ const Resturant = () => {
       </div>
 
 
-      <div id="menu" className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto px-4 lg:px-0 pt-20')}>
+      <div id="menu" className={classNames(location.pathname !== '/' && '', 'max-w-6xl mx-auto px-4 lg:px-0 pt-20')}>
 
 
         <div className='flex flex-col items-center justify-between gap-6 text-center mb-6 '>

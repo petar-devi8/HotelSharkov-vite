@@ -12,7 +12,7 @@ const AboutUs = () => {
   const location = useLocation();
   console.log(location);
   return (
-    <div id="aboutus" className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 py-12 scroll-mt-24')}>
+    <div id="aboutus" className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto px-4 lg:px-0 sm:py-20 pb-12 scroll-mt-24')}>
       <div className="flex max-sm:flex-col justify-between gap-4 ">
 
         <div className="sm:w-1/2 space-y-5">

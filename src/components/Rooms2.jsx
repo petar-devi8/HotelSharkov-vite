@@ -60,9 +60,9 @@ const Rooms2 = () => {
           autem culpa quaerat!</p>
       </div>
 
-      <div className='flex flex-col justify-between gap-10 sm:pt-10 pt-5'>
-        <div className='flex flex-col-reverse sm:flex-row gap-10 justify-between sm:py-5'>
-          <div class=" leading-6 space-y-4 ">
+      <div className='flex flex-col justify-between gap-8 sm:pt-10 pt-5'>
+        <div className='flex flex-col-reverse sm:flex-row gap-8 justify-between sm:py-5'>
+          <div class=" leading-6 space-y-2 ">
             <h2 class="sm:text-4xl text-2xl leading-normal pb-4">Единична стая </h2>
 
             <div className='flex gap-3 items-center'>
@@ -92,7 +92,7 @@ const Rooms2 = () => {
             </div>
 
 
-            <h3 className='pt-5'>
+            <h3 className='pt-4'>
               <sup class="-top-4 relative"></sup>
               <span class="text-[40px] ">50</span>
               <span> лв.</span>
@@ -111,7 +111,7 @@ const Rooms2 = () => {
                 {...properties}
                 duration={4000}
                 transitionDuration={500}
-                indicators={indicators}
+                // indicators={indicators}
                 onChange={function noRefCheck() { }}
                 onStartChange={function noRefCheck() { }}
               >
@@ -125,8 +125,8 @@ const Rooms2 = () => {
 
 
         </div>
-        <div className='flex flex-col-reverse sm:flex-row gap-10 justify-between sm:py-5'>
-          <div class=" leading-6 space-y-4 ">
+        <div className='flex flex-col-reverse sm:flex-row gap-8 justify-between sm:py-5'>
+          <div class=" leading-6 space-y-2 ">
             <h2 class="sm:text-4xl text-2xl leading-normal pb-4">Двойна стая  </h2>
 
             <div className='flex gap-3 items-center'>
@@ -175,7 +175,7 @@ const Rooms2 = () => {
                 {...properties}
                 duration={5000}
                 transitionDuration={500}
-                indicators={indicators}
+                // indicators={indicators}
                 onChange={function noRefCheck() { }}
                 onStartChange={function noRefCheck() { }}
               >
@@ -190,7 +190,7 @@ const Rooms2 = () => {
 
         </div>
         <div className='flex flex-col-reverse sm:flex-row gap-10 justify-between sm:py-5'>
-          <div class=" leading-6 space-y-4 ">
+          <div class=" leading-6 space-y-2 ">
             <h2 class="sm:text-4xl text-2xl leading-normal pb-4">Студио </h2>
 
             <div className='flex gap-3 items-center'>
@@ -240,8 +240,7 @@ const Rooms2 = () => {
 
                 duration={4000}
                 transitionDuration={500}
-
-                indicators={indicators}
+                // indicators={indicators}
                 onChange={function noRefCheck() { }}
                 onStartChange={function noRefCheck() { }}
               >

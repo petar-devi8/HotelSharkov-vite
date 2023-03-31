@@ -40,7 +40,7 @@ const Footer = () => {
 
             <div className="flex gap-4 ">
               <IoLocationOutline className='w-5 h-5 shrink-0 mt-1 ' />
-              <a href='#map' className='font-title'> Семеен хотел Шарков
+              <a href='#map' className=''> Семеен хотел Шарков
                 с.Огняново, 2947 с.Огняново ул. Иван Вазов 15</a>
             </div>
 

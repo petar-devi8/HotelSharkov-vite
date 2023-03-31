@@ -94,7 +94,7 @@ const Gallery = () => {
 
 
   return (
-    <div id='gallery' className={classNames(location.pathname !== '/' && 'mt-24', 'max-w-6xl mx-auto lg:px-0 sm:py-20 pt-12 scroll-mt-24')}>
+    <div id='gallery' className={classNames(location.pathname !== '/' && 'sm:mt-24', 'max-w-6xl mx-auto lg:px-0 sm:py-20 pt-12 scroll-mt-24')}>
       <div className='space-y-5  px-4'>
         <h3 className='sm:text-3xl  text-xl font-light text-gray-500 text-center '>Различни сезони, различни настроения - едно място, вашето място</h3>
         <h2 className='sm:text-4xl text-3xl text-gray-600 text-center'>Галерия</h2>
