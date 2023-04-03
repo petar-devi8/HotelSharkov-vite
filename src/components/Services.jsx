@@ -25,7 +25,7 @@ const Services = () => {
             </div>
             <div className="flex flex-col gap-2">
               <h4 className="sm:text-2xl text-xl ">Луксозни стаи</h4>
-              <p className=" leading-6 text-gray-200">Нашите стаи са удобни и просторни.
+              <p className=" leading-6 ">Нашите стаи са удобни и просторни.
                 Климатизация, минибар, плазмен телевизор, тераса са част от удобствата ни.</p>
             </div>
           </div>

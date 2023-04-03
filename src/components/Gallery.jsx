@@ -71,10 +71,10 @@ const Gallery = () => {
   }
 
   const properties = {
-    prevArrow: <div className=" sm:bg-black/40 bg-black/60 text-white p-2 max-sm:!left-1">
+    prevArrow: <div className=" sm:bg-black/40 bg-black/60 text-white p-2 max-sm:!left-0">
       <BsChevronCompactLeft className=" sm:w-8 sm:h-8 w-5 h-5 " />
     </div>,
-    nextArrow: <div className=" sm:bg-black/40  bg-black/60 text-white p-2 max-sm:!right-1 ">
+    nextArrow: <div className=" sm:bg-black/40  bg-black/60 text-white p-2 max-sm:!right-0 ">
       <BsChevronCompactRight className=" sm:w-8 sm:h-8 w-5 h-5" />
     </div>
   }

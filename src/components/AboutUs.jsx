@@ -24,7 +24,7 @@ const AboutUs = () => {
 
           <h3 className=" font-title text-xl">Заповядайте при нас</h3>
           <div>
-            <h2 className="sm:text-5xl text-3xl font-title ">Семеен sssхотел Шарков</h2>
+            <h2 className="sm:text-5xl text-3xl font-title ">Семеен Хотел Шарков</h2>
 
             <div className="space-y-5 pt-5">
               <p>Семеен хотел Шарков се намира в центъра на село Огняново. Той предлага безплатен открит сезонен басейн, безплатен Wi-Fi и безплатен обществен паркинг. Огняновските минерални бани и басейни са на 250 метра.</p>
