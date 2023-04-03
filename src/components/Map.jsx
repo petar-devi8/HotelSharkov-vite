@@ -10,6 +10,7 @@ import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/24/outline';
 import emailjs from '@emailjs/browser';
 import { useEffect } from 'react';
 
+
 const adult = [
   { number: 1 },
   { number: 2 },
@@ -100,7 +101,6 @@ const Map = () => {
               <Datepicker
                 inputClassName=" !py-2 !pl-3 !text-base border-gray-200 border focus:ring disabled:opacity-40 disabled:cursor-not-allowed focus:border-sky-500/20 focus:ring-sky-500/20 !text-black !font-normal"
                 showFooter={true}
-                theme={"light"}
                 textColor={'#000000'}
                 placeholder={"дати"}
                 primaryColor={"sky"}

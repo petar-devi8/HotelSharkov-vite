@@ -19,6 +19,7 @@
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "react-native-appearance": "^0.3.4",
     "react-router-dom": "^6.8.1",
     "react-slideshow-image": "^4.2.1",
     "react-tailwindcss-datepicker": "^1.5.1",
