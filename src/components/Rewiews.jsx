@@ -26,7 +26,7 @@ const Rewiews = () => {
               <h4 class="text-sm text-[#a6a6a6] leading-relaxed">Satisfied Customer</h4>
             </div>
 
-            <p class="text-gray-500 leading-7 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat sapiente molestias, dolorum est illo quaerat eius veniam provident, veritatis cupiditate explicabo ab quia amet consequuntur. Quidem, deserunt non. Voluptate.</p>
+            <p class="text-gray-600 leading-6 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat sapiente molestias, dolorum est illo quaerat eius veniam provident, veritatis cupiditate explicabo ab quia amet consequuntur. Quidem, deserunt non. Voluptate.</p>
 
           </div>
 
@@ -42,7 +42,7 @@ const Rewiews = () => {
               <h4 class="text-sm text-[#a6a6a6] leading-relaxed">Мениджър..</h4>
             </div>
 
-            <p class="text-gray-500 leading-7 font-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est facilis cumque eius consequuntur dolorum repellendus, aut repellat quod nam, quasi sint numquam earum quam iusto harum nisi culpa eum!</p>
+            <p class="text-gray-600 leading-7 font-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est facilis cumque eius consequuntur dolorum repellendus, aut repellat quod nam, quasi sint numquam earum quam iusto harum nisi culpa eum!</p>
 
           </div>
 
@@ -55,10 +55,10 @@ const Rewiews = () => {
               src={person4} />
             <div class="flex flex-col">
               <h3 class="sm:text-lg  font-light">Петър Русинов</h3>
-              <h4 class="text-sm text-[#a6a6a6] leading-relaxed">Програмист :D</h4>
+              <h4 class="text-sm text-[#a6a6a6] leading-relaxed">Програмист : )</h4>
             </div>
 
-            <p class="text-gray-500 leading-7 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel veritatis, quod, debitis minus sed repudiandae non, voluptatem amet ullam consequatur laboriosam deleniti voluptatibus tempora quibusdam culpa suscipit nemo libero consectetur?</p>
+            <p class="text-gray-600 leading-7 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel veritatis, quod, debitis minus sed repudiandae non, voluptatem amet ullam consequatur laboriosam deleniti voluptatibus tempora quibusdam culpa suscipit nemo libero consectetur?</p>
 
           </div>
 

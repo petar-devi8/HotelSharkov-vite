@@ -33,7 +33,7 @@ const Resturant = () => {
         <p className="text-gray-600">Led by Chef de Micheal Martin, The Restaurant is celebrated for its excellent cuisine and unique ambience. The gorgeous dining room features three open studio kitchens, allowing you to enjoy the sights and sounds of the culinary artistry on display. The menu showcases both Asian and European influences, with a tempting selection of classic favorites and creative dishes for you to sample. Cheese connoisseurs will be drawn to the The Wine and Cheese Cellar, housed in five-meter-high glass walls, where our knowledgeable staff can introduce you to some of New York's greatest culinary treasures.</p>
 
         <h4 className="text-lg text-gray-600">Работно време :</h4>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 text-gray-600">
           <div className="flex gap-3 items-center">
             <IoTimeOutline className="w-6 h-6 text-yellow-600" />
             <p>Закуска : 8.00 - 11.00 (всеки ден)</p>
@@ -49,7 +49,7 @@ const Resturant = () => {
 
         </div>
 
-        <p>Голяма лятна градина ....</p>
+        <p className='text-gray-600'>Голяма лятна градина ....</p>
 
       </div>
 
@@ -62,7 +62,7 @@ const Resturant = () => {
         </div>
 
         <Tab.Group>
-          <Tab.List className=' scrollbar-hidden overflow-x-scroll mx-auto -mb-px flex flex-wrap sm:flex-nowrap sm:space-x-8 border-b border-gray-200 max-sm:px-2 sm:text-xl  justify-between items-center text-left'>
+          <Tab.List className=' scrollbar-hidden overflow-x-scroll mx-auto -mb-px flex flex-wrap sm:flex-nowrap sm:space-x-8 border-b border-gray-200 max-sm:px-2 sm:text-xl  justify-between items-center text-left text-gray-600'>
 
             <Tab className="ui-selected:border-slate-800 ui-selected:text-slate-900 border-transparent text-gray-500 hover:text-gray-900 hover:border-gray-600 active:border-gray-600 outline-none whitespace-nowrap py-4 px-1 border-b-2 font-medium w-1/3">Закуска</Tab>
             <Tab className="ui-selected:border-slate-800 ui-selected:text-slate-900 border-transparent text-gray-500 hover:text-gray-900 hover:border-gray-600 active:border-gray-600 outline-none whitespace-nowrap py-4 px-1 border-b-2 font-medium w-1/3">Салати</Tab>

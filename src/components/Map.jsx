@@ -82,8 +82,8 @@ const Map = () => {
 
   return (
     <div id='map' className='max-w-6xl mx-auto lg:px-0 sm:py-20 py-12 scroll-mt-24'>
-      <h3 className='sm:text-5xl text-3xl sm:py-8 py-4 text-gray-600 text-center'>Контакти</h3>
-      <h4 className="uppercase text-xl font-title text-center space-y-10">Свържете се с нас</h4>
+      <h3 className='sm:text-5xl text-3xl pb-8 text-gray-600 text-center'>Контакти</h3>
+      <h4 className="uppercase text-xl font-title text-center space-y-4 text-gray-600">Свържете се с нас</h4>
 
       <div className=" flex flex-col sm:flex-row max-sm:px-4 gap-12 mt-10">
         <div className=' space-y-3  sm:w-1/2'>
@@ -96,7 +96,7 @@ const Map = () => {
             <input type="hidden" name="startDate" value={value.startDate} />
             <input type="hidden" name="endDate" value={value.endDate} />
             <div className=' flex flex-col sm:gap-2 gap-1 w-full'>
-              <label className=' block font-medium leading-6 text-gray-900 sm:text-lg text-sm' htmlFor="">Дати за настаняване и напускане</label>
+              <label className=' block font-medium leading-6 text-gray-600 sm:text-lg text-sm' htmlFor="">Дати за настаняване и напускане</label>
               <Datepicker
                 inputClassName=" !py-2 !pl-3 !text-base border-gray-200 border focus:ring disabled:opacity-40 disabled:cursor-not-allowed focus:border-sky-500/20 focus:ring-sky-500/20 !text-black !font-normal"
                 showFooter={true}
@@ -120,7 +120,7 @@ const Map = () => {
 
             <div className='flex justify-between gap-3 w-full sm:mt-4'>
               <div className="w-1/2 ">
-                <label className=' block font-medium leading-6 text-gray-900 sm:text-lg text-sm ' htmlFor="adults">Възрастни</label>
+                <label className=' block font-medium leading-6 text-gray-600 sm:text-lg text-sm ' htmlFor="adults">Възрастни</label>
                 <Listbox value={adults}
                   name="adults"
                   onChange={setAdults}>
@@ -174,7 +174,7 @@ const Map = () => {
               </div>
 
               <div className="w-1/2 ">
-                <label className=' block font-medium leading-6 text-gray-9 sm:text-lg text-sm' htmlFor="adults">Деца</label>
+                <label className=' block font-medium leading-6 text-gray-600 sm:text-lg text-sm' htmlFor="adults">Деца</label>
                 <Listbox value={children} name="children" onChange={setChildren}>
                   <div className="relative mt-1">
                     <Listbox.Button className="relative w-full cursor-default rounded-md bg-white py-2  pl-3 pr-10 text-left border-gray-200 border  focus:ring disabled:opacity-40 disabled:cursor-not-allowed focus:border-sky-500/20 focus:ring-sky-500/20 ">
@@ -264,7 +264,7 @@ const Map = () => {
                 </div>
               </div>
               <div className="">
-                <label htmlFor="Mail" className="block font-medium leading-6 text-gray-900 sm:text-lg text-sm">
+                <label htmlFor="Mail" className="block font-medium leading-6 text-gray-600 sm:text-lg text-sm">
                   Електронна поща
                 </label>
                 <div className="mt-1">
@@ -283,7 +283,7 @@ const Map = () => {
                 </div>
               </div>
               <div className="">
-                <label htmlFor="phone" className="block font-medium leading-6 text-gray-900 sm:text-lg text-sm ">
+                <label htmlFor="phone" className="block font-medium leading-6 text-gray-600 sm:text-lg text-sm ">
                   Телефон
                 </label>
                 <div className="mt-1">
@@ -306,7 +306,7 @@ const Map = () => {
             </div>
 
             <div className="sm:mt-3">
-              <label htmlFor="phone" className="block font-medium leading-6 text-gray-000 sm:text-lg text-sm">
+              <label htmlFor="phone" className="block font-medium leading-6 text-gray-600 sm:text-lg text-sm">
                 Съобщение
               </label>
               <div className="mt-1">
