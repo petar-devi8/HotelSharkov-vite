@@ -5,6 +5,14 @@
 <head>
       <meta content="light"
             name="theme-color">
+      <script>
+            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+            if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.documentElement.classList.add('dark');
+            } else {
+                  document.documentElement.classList.remove('dark')
+            }
+      </script>
       <meta charset="UTF-8" />
       <link rel="icon"
             type="image/svg+xml"
@@ -19,8 +27,8 @@
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
             rel="stylesheet">
       <title>Sharkov-Hotel</title>
-  <script type="module" crossorigin src="/HotelSharkov-vite/assets/index-bbf7c7b4.js"></script>
-  <link rel="stylesheet" href="/HotelSharkov-vite/assets/index-397b0e76.css">
+  <script type="module" crossorigin src="/HotelSharkov-vite/assets/index-807884c7.js"></script>
+  <link rel="stylesheet" href="/HotelSharkov-vite/assets/index-9a52d7f8.css">
 </head>
 
 <body class="overflow-x-hidden">
